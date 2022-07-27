@@ -1,0 +1,30 @@
+.ContainerPrecoTotal {
+  width: 25.8rem;
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+
+  border-radius: 8px;
+  border: 1px solid var(--grey-2);
+}
+
+.TituloValorTotal {
+  font-weight: bold;
+  color: var(--grey-4);
+  font-size: 1rem;
+}
+
+.Total {
+  font-weight: bold;
+  color: var(--color-primary);
+  font-size: 1rem;
+  margin: 0;
+}
+
+.ContainerPrecoTotal > div + div {
+  display: flex;
+  height: 100%;
+  padding-top: 5px;
+}

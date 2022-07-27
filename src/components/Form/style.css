@@ -1,0 +1,94 @@
+form {
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 25px;
+
+  border-radius: 8px;
+  border: 1px solid var(--grey-2);
+  background-color: #ffffff;
+  box-shadow: 1px 3px 10px var(--grey-2);
+}
+
+.ContainerInputs {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: start;
+  gap: 8px;
+}
+
+.DivValor {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ContainerValor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ContainerSelect {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+label,
+select,
+input {
+  font-size: 0.9rem;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 0.75rem;
+  color: var(--grey-3);
+}
+
+input {
+  width: 100%;
+  height: 3.3rem;
+  background-color: var(--grey-1);
+  border: none;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+input:focus,
+input {
+  outline-color: var(--color-primary);
+}
+
+button {
+  width: 100%;
+  height: 3rem;
+
+  border: none;
+  border-radius: 5px;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+form > button {
+  box-shadow: 1px 2px 8px var(--grey-2);
+}
+
+form > button:hover {
+  background-color: var(--color-primary-2);
+}
+
+select {
+  height: 3.3rem;
+  background-color: var(--grey-1);
+  border: none;
+  color: var(--grey-3);
+}

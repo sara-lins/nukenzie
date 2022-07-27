@@ -1,0 +1,55 @@
+.ContainerSecundário {
+  width: 50%;
+  max-width: 37.5rem;
+  min-width: 410px;
+  display: flex;
+  justify-content: center;
+}
+.ContainerMenuFilter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.ContainerButtons {
+  display: flex;
+  gap: 15px;
+}
+.ContainerButtons > button {
+  width: 6.25rem;
+  cursor: pointer;
+}
+
+.btnFilter {
+  color: var(--grey-4);
+  background-color: var(--grey-2);
+}
+
+.btnFilter:hover {
+  color: var(--grey-2);
+  background-color: var(--grey-4);
+}
+
+.P-ResumoFinanceiro {
+  color: var(--grey-4);
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+@media (max-width: 480px) {
+  .ContainerButtons > button {
+    width: 5rem;
+    font-size: 0.9rem;
+  }
+
+  .P-ResumoFinanceiro {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 945px) {
+  .P-ResumoFinanceiro {
+    font-size: 0.9rem;
+  }
+}

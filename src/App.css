@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 60px;
+  margin-top: 150px;
+}
+
+@media (max-width: 900px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+main > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+header {
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  box-shadow: 1px 2px 5px var(--grey-2);
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
+
+header > button {
+  width: 4rem;
+  color: var(--grey-4);
+  background-color: var(--grey-2);
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+header > button .tooltiptext {
+  visibility: hidden;
+  width: 10rem;
+  color: var(--grey-3);
+  background-color: var(--grey-1);
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  font-size: 0.9rem;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  right: 110%;
+}
+
+header > button:hover .tooltiptext {
+  visibility: visible;
+}
+
+header > button:hover {
+  color: var(--grey-2);
+  background-color: var(--grey-4);
+}
+
+.MainHomePage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--grey-4);
+}
+
+.ContainerHomePage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 90%;
+}
+
+@media (max-width: 320px) {
+  .ContainerHomePage {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.ContainerInfoPages {
+  width: 50%;
+  max-width: 18.75rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  text-align: start;
+  margin: 0;
+
+  color: white;
+}
+
+.ContainerInfoPages > button {
+  width: 80%;
+  margin-top: 1.125rem;
+}
+
+.ContainerInfoPages > button:hover {
+  background-color: var(--color-primary-2);
+}
+
+.ContainerInfoPages > img {
+  width: 9.375rem;
+  padding-bottom: 25px;
+}
+
+.ContainerInfoPages > p {
+  color: white;
+}
+.ContainerInfoPagesImg {
+  width: 50%;
+}
+.ContainerInfoPagesImg > img {
+  width: 100%;
+}
