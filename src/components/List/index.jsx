@@ -19,20 +19,44 @@ const List = ({
       </p>
       <li>
         <div className="divCardInvisible">
-          <img src={RetanguloUm} alt="retangulo 1" />
-          <img src={RetanguloDois} alt="retangulo 1" />
+          <img
+            className="divCardInvisible__imgRetangulo--Um"
+            src={RetanguloUm}
+            alt="retangulo 1"
+          />
+          <img
+            className="divCardInvisible__imgRetangulo--Dois"
+            src={RetanguloDois}
+            alt="retangulo 1"
+          />
         </div>
       </li>
       <li>
         <div className="divCardInvisible">
-          <img src={RetanguloUm} alt="retangulo 1" />
-          <img src={RetanguloDois} alt="retangulo 1" />
+          <img
+            className="divCardInvisible__imgRetangulo--Um"
+            src={RetanguloUm}
+            alt="retangulo 1"
+          />
+          <img
+            className="divCardInvisible__imgRetangulo--Dois"
+            src={RetanguloDois}
+            alt="retangulo 1"
+          />
         </div>
       </li>
       <li>
         <div className="divCardInvisible">
-          <img src={RetanguloUm} alt="retangulo 1" />
-          <img src={RetanguloDois} alt="retangulo 1" />
+          <img
+            className="divCardInvisible__imgRetangulo--Um"
+            src={RetanguloUm}
+            alt="retangulo 1"
+          />
+          <img
+            className="divCardInvisible__imgRetangulo--Dois"
+            src={RetanguloDois}
+            alt="retangulo 1"
+          />
         </div>
       </li>
     </ul>
